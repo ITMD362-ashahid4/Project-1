@@ -8,3 +8,9 @@ html {
 div {
   padding: 10px;
 }
+
+#fname, #lname, #email, #number, #password, #again {
+  padding: 3px;
+  width: 25%;
+  font-size: 16px;
+}

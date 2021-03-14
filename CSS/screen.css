@@ -36,3 +36,12 @@ h1{
     width: 20em;
   }
 }
+@media screen and (min-width:900px) {
+  h1 {
+    font-size: 35px;
+    padding-bottom: 8px;
+  }
+  #signup{
+    width: 8em;
+  }
+}

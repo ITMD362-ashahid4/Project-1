@@ -13,13 +13,15 @@ h1{
   font-size: 25px;
 }
 #fname, #lname, #email, #number, #password, #again {
-  padding: 3px;
+  padding: 6px;
   width: 20em;
   font-size: 16px;
   border: none;
   background-color: #ECECEC;
 }
-
+#name {
+  padding-top: 15px;
+}
 #signup {
   padding: 5px;
   font-family: Georgia, Lora, serif;
@@ -27,6 +29,9 @@ h1{
   border: none;
   background-color: #BEBEBE;
   color: #000000;
+}
+#submit{
+  padding-top: 15px;
 }
 @media screen and (min-width: 300px){
   #fname, #lname, #email, #number, #password, #again {

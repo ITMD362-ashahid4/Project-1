@@ -2,13 +2,13 @@ html {
   line-height: 1.618em;
   font-family: Georgia, Lora, serif;
   font-size: 18px;
-  padding: 25px;
+  padding: 15px;
+  text-align: center;
 }
 
 div {
   padding: 10px;
 }
-
 #fname, #lname, #email, #number, #password, #again {
   padding: 3px;
   width: 25%;

@@ -9,6 +9,9 @@ html {
 div {
   padding: 10px;
 }
+h1{
+  font-size: 25px;
+}
 #fname, #lname, #email, #number, #password, #again {
   padding: 3px;
   width: 25%;

@@ -31,3 +31,8 @@ h1{
     padding-bottom:5px;
   }
 }
+@media screen and (min-width: 500px) {
+  #fname, #lname, #email, #number, #password, #again {
+    width: 20em;
+  }
+}

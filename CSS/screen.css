@@ -14,12 +14,12 @@ h1{
 }
 #fname, #lname, #email, #number, #password, #again {
   padding: 3px;
-  width: 25%;
+  width: 20em;
   font-size: 16px;
 }
 
 #signup {
   padding: 5px;
   font-family: Georgia, Lora, serif;
-  width: 8em;
+  width: 6em;
 }

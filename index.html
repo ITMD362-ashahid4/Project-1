@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="CSS/reset.css" />
   <link rel="stylesheet" media="screen" href="CSS/screen.css" />
-  <script type="text/javascript" src="site.js" async> </script>
+  <script src="site.js" async> </script>
 </head>
 <body>
   <div>
@@ -14,7 +14,7 @@
       <p> Sign up to receive information about our gym membership, promotional
         offers, and tips to lead a healthy lifestyle.</p>
   </div>
-  <form method="POST" autocomplete="on" action=#null enctype="multipart/form-data">
+  <form method="POST" autocomplete="on" action="javascript:myEvent();" enctype="multipart/form-data">
 <fieldset>
   <div id="name">
     <label for="First Name"><input id="fname" type="text" name=fname_field placeholder="First Name"></label>
@@ -32,7 +32,7 @@
     <label for="Password"><input id="password" type="password" name="password_field" placeholder="Password"></label>
   </div>
   <div>
-    <label for="Again"><input id="again" type="password" name="again_field" placeholder ="Re-enter Password"></label>
+    <label for="Again"><input id="again" type="password" name="again_field" placeholder="Re-enter Password"></label>
   </div>
   <div id="submit">
     <label for="Sign Up"><input id="signup" type="submit" value="Sign up"></label>
